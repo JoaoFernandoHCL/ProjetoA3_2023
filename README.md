@@ -51,8 +51,11 @@ Tipo Guardado: qualitativo nominal
 
 ## Para aplicar as técnicas de IA, algumas variáveis precisam ser transformadas. As variáveis que precisam ser transformadas são:  
 **Qualidade do sono** é um aspecto importante da saúde e do bem-estar. Uma eficiência do sono alta indica um sono de boa qualidade, enquanto uma eficiência do sono baixa pode ter implicações para outras áreas da saúde, como o risco de doenças cardiovasculares, diabetes, obesidade, depressão, ansiedade, demência, entre outras. A qualidade do sono pode ser afetada por vários fatores, como a atividade física, o nível de estresse, o consumo de álcool, cafeína e nicotina, a exposição à luz, o horário de dormir e de acordar.  
-**Duração do sono:** Essa variável está em formato de hora (hh:mm), mas para facilitar a análise, ela pode ser convertida em minutos ou horas decimais. Por exemplo, 7:30 pode ser convertido em 450 minutos ou 7.5 horas.  
-**IMC:** Essa variável tem alguns valores ausentes, que podem ser tratados de diferentes formas. Uma forma é excluir as observações que têm valores ausentes. Outra forma é imputar os valores ausentes com a média, a mediana ou a moda da variável. Uma terceira forma é usar um modelo de regressão para estimar os valores ausentes com base nas outras variáveis.  
+  
+**Duração do sono:** Essa variável está em formato de hora (hh:mm), mas para facilitar a análise, ela pode ser convertida em minutos ou horas decimais. Por exemplo, 7:30 pode ser convertido em 450 minutos ou 7.5 horas.
+  
+**IMC:** Essa variável tem alguns valores ausentes, que podem ser tratados de diferentes formas. Uma forma é excluir as observações que têm valores ausentes. Outra forma é imputar os valores ausentes com a média, a mediana ou a moda da variável. Uma terceira forma é usar um modelo de regressão para estimar os valores ausentes com base nas outras variáveis.
+  
 **Distúrbio do sono:** transformar essa variável em uma escala ordinal sendo 0= Nenhum, 1= Insônia, 2= Apneia do Sono  
 
 Decidimos testar a hipótese de que a atividade física tem um efeito positivo na eficiência do sono, pois essa é uma questão relevante para a saúde do sono e o estilo de vida. A atividade física pode melhorar a qualidade do sono, reduzir o estresse, regular o ritmo circadiano, aumentar o gasto energético e promover o relaxamento muscular . A hipótese pode ser formulada da seguinte forma:
